@@ -43,9 +43,9 @@ Además, se aplicó regularización L1 en regresión logística para analizar la
 
 El modelo seleccionado fue un SVM con kernel RBF y los hiperparámetros `C=1` y `gamma=0.1`.
 
-| Evaluación |                                                                             | ROC-AUC |
-| Validación cruzada durante la optimización                                                  0,9169 |
-| Conjunto de prueba                                                                          0,9161 |
+| Evaluación | ROC-AUC |
+| Validación cruzada durante la optimización  0,9169 |
+| Conjunto de prueba  0,9161 |
 
 Los resultados muestran una capacidad discriminativa elevada en la partición utilizada para la evaluación. El rendimiento puede variar con otros datos y distribuciones.
 
@@ -66,6 +66,7 @@ Los resultados muestran una capacidad discriminativa elevada en la partición ut
 
 ## Trabajo realizado
 
-El trabajo se centró en el análisis de los datos, la preparación de las variables, la experimentación con diferentes algoritmos, la optimización de hiperparámetros y la evaluación crítica de los resultados. La interfaz de Streamlit formaba parte del material proporcionado para la práctica y no constituye el desarrollo principal del proyecto.
+El trabajo se centró en el análisis de los datos, la preparación de las variables, la experimentación con diferentes algoritmos, la optimización de hiperparámetros y la evaluación crítica de los resultados.
 
 Proyecto académico desarrollado en colaboración con otro estudiante.
+
